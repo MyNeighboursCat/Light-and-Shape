@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Colin Walters.  All rights reserved.
+  -->
+
+<RelativeLayout
+    android:id="@+id/highScoreDialogRoot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/hsidEditText"
+        style="@style/CustomPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/high_score_dialog_hint"
+        android:inputType="text"
+        android:maxLength="3"
+        tools:ignore="Autofill">
+
+        <requestFocus/>
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/buttonsLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hsidEditText"
+        android:background="@color/Grey">
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/CustomPadding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/cancel"/>
+
+        <Button
+            android:id="@+id/okButton"
+            style="@style/CustomPadding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@android:string/ok"/>
+    </LinearLayout>
+
+</RelativeLayout>

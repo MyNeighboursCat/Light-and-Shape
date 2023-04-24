@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ~ Copyright (c) 2023 Colin Walters.  All rights reserved. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.lightandshape"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="33" />
+    <!--
+    Emulator doesn't like preferExternal.  Need to use the following instead when using the
+    emulators.
+    -->
+    <!-- android:installLocation="auto" > -->
+
+
+    <!-- Leave for Rate option. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <permission
+        android:name="com.mycompany.lightandshape.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.mycompany.lightandshape.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity
+            android:name="com.mycompany.lightandshape.controller.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mycompany.lightandshape.controller.SettingsActivity"
+            android:label="@string/settings" />
+        <activity
+            android:name="com.mycompany.lightandshape.controller.GameActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mycompany.lightandshape.controller.HighScoreActivity"
+            android:label="@string/high_score" />
+        <activity
+            android:name="com.mycompany.lightandshape.controller.HelpActivity"
+            android:label="@string/help" />
+
+        <service android:name="com.mycompany.lightandshape.controller.AudioFocusService" />
+
+        <receiver
+            android:name="com.mycompany.lightandshape.controller.SoundBroadcastReceiver"
+            android:exported="false" >
+
+            <!--
+                 don't use this - use Context.registerReceiver() <intent-filter> <action
+                android:name="android.media.AUDIO_BECOMING_NOISY" /> </intent-filter>
+            -->
+        </receiver>
+
+        <activity
+            android:name="com.mycompany.lightandshape.controller.AboutActivity"
+            android:label="@string/about" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.mycompany.lightandshape.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

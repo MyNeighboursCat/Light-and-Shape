@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_cyancircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/cyancircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_bluetriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/bluetriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_help.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_help.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_high_score_dialog.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/high_score_dialog.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_rate.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_rate.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_highscore.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_highscore.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_pinktriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/pinktriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_orangetriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/orangetriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_remove.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_remove.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_rate.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_rate.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_browncircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/browncircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_help.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_help.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_redcircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/redcircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_light.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/light.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_bluecircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/bluecircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_remove.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_remove.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/raw_start.wav.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/raw/start.wav"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_bluesquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/bluesquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_pause.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_pause.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_whitetriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/whitetriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_yellowsquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/yellowsquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_game_paused_dialog.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/game_paused_dialog.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_about.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_about.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_yellowtriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/yellowtriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_greytriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/greytriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_redtriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/redtriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_settings.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_settings.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_greentriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/greentriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_main.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/main.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_play.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_play.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_misscross.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/misscross.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_help.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_help.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_greysquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/greysquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_redsquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/redsquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_pinksquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/pinksquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_orangecircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/orangecircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/raw_miss.wav.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/raw/miss.wav"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_magentasquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/magentasquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_cyantriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/cyantriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_greencircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/greencircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_play.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_play.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_play.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_play.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_greycircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/greycircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_magentacircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/magentacircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_list_display.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/list_display.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_highscore.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_highscore.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-hdpi_ic_menu_about.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-hdpi/ic_menu_about.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_pause.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_pause.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/raw_hit.wav.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/raw/hit.wav"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_whitecircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/whitecircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_game.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/game.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_rate.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_rate.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_brownsquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/brownsquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_yellowcircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/yellowcircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_whitesquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/whitesquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_about.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_about.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_highscore.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_highscore.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_remove.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_remove.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_settings.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_settings.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_pinkcircle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/pinkcircle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_magentatriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/magentatriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-xhdpi_ic_menu_settings.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-xhdpi/ic_menu_settings.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_ic_menu_pause.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/ic_menu_pause.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_browntriangle.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/browntriangle.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_text_display.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/text_display.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_cyansquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/cyansquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_orangesquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/orangesquare.png"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/raw_gameover.wav.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/raw/gameover.wav"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/layout_settings_dialog.xml.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/layout/settings_dialog.xml"
+    },
+    {
+        "merged": "com.mycompany.lightandshape.app-merged_res-28:/drawable-mdpi_greensquare.png.flat",
+        "source": "com.mycompany.lightandshape.app-main-30:/drawable-mdpi/greensquare.png"
+    }
+]
