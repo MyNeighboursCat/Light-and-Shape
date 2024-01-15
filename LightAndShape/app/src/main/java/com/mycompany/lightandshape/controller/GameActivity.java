@@ -5,6 +5,7 @@ package com.mycompany.lightandshape.controller;
 
 import android.graphics.Canvas;
 import android.media.AudioManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -14,7 +15,10 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.window.OnBackInvokedCallback;
+import android.window.OnBackInvokedDispatcher;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -96,6 +100,25 @@ public final class GameActivity extends AppCompatActivity {
                 GameActivity.this.doPausedDialog();
             }
         });
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            this.getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
+                    OnBackInvokedDispatcher.PRIORITY_DEFAULT,
+                    new OnBackInvokedCallback() {
+                        @Override
+                        public void onBackInvoked() {
+                            GameActivity.this.doPausedDialog();
+                        }
+                    });
+        } else {
+            this.getOnBackPressedDispatcher().addCallback(this,
+                    new OnBackPressedCallback(true) {
+                        @Override
+                        public void handleOnBackPressed() {
+                            GameActivity.this.doPausedDialog();
+                        }
+                    });
+        }
     }
 
     @Override
@@ -160,16 +183,6 @@ public final class GameActivity extends AppCompatActivity {
         }
 
         super.onPause();
-    }
-
-    @Override
-    public void onBackPressed() {
-        // Don't call super - activity will be destroyed
-        // super.onBackPressed();
-
-        if (this.allowEvents) {
-            this.doPausedDialog();
-        }
     }
 
     @Override

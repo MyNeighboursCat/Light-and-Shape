@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mycompany.lightandshape.app-mergeDebugResources-26:/values-v18/values-v18.xml",
+            "outputFile": "com.mycompany.lightandshape.app-mergeDebugResources-29:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\colin\\.gradle\\caches\\transforms-3\\7ba610368285ef737a15a687544ee720\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\colin\\.gradle\\caches\\transforms-3\\9b6677a25abbbd7b5fd251814a79378d\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
